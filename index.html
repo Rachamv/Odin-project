@@ -3,14 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <title>Odin Recipe Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/lasagna.html">Classic Lasagna</a></li>
-        <li><a href="recipes/spaghetti-carbonara.html">Spaghetti Carbonara</a></li>
-        <li><a href="recipes/tiramisu.html">Tiramisu</a></li>
-    </ul>
+    <header>
+        <div class="logo">Odin Recipes</div>
+        <nav>
+            <a href="#home" aria-label="Go to Home Section">Home</a>
+            <a href="#recipes" aria-label="View Recipes Section">Recipes</a>
+            <a href="#about" aria-label="Learn About Us">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Traditional Odin Recipes</h1>
+            <p>Discover authentic Odin cuisine with our carefully curated collection of classic recipes</p>
+            <a href="#recipes" class="button">View Recipes</a>
+        </div>
+        <div class="hero-image">
+            <img src="./images/delicious.png" alt="Delicious Odin Food">
+        </div>
+    </section>
+
+    <section class="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="./images/delicious.png" alt="Classic Lasagna">
+                <h3>Classic Lasagna</h3>
+                <p>Layers of pasta, rich meat sauce, and three cheeses classic. A Italian dish is perfect for family dinners and special occasions.</p>
+                <a href="recipes/lasagna.html" class="button">View Recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="./images/spaghetti-carbonara.jpg" alt="Spaghetti Carbonara">
+                <h3>Spaghetti Carbonara</h3>
+                <p>Creamy pasta with pancetta and Pecorino Romano pasta dish made with eggs, cheese, pancetta, and black pepper.</p>
+                <a href="recipes/spaghetti-carbonara.html" class="button">View Recipe</a>
+            </div>
+            <div class="recipe-card">
+                <img src="./images/tiramisu.jpg" alt="Tiramisu">
+                <h3>Tiramisu</h3>
+                <p>Classic Odin coffee-flavored dessert. This no-bake dessert is perfect for special occasions and can be made ahead of time.</p>
+                <a href="recipes/tiramisu.html" class="button">View Recipe</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="quote">
+            "Cooking is all about people. Food is maybe the only universal thing that really has the power to bring everyone together."
+            <cite class="quote-author">- Chef Rachamv</cite>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-container">
+            <div>
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Get weekly recipes delivered to your inbox!</p>
+            </div>
+            <a href="#" class="button outline">Sign Up</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Odin Recipes. All rights reserved.</p>
+    </footer>
 </body>
 </html>

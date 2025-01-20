@@ -3,42 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classic Lasagna Recipe</title>
+    <title>Classic Lasagna - Odin Recipes</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../recipe-detail.css">
 </head>
 <body>
-    <a href="../index.html">Home</a>
+    <header>
+        <div class="logo">Odin Recipes</div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
 
-    <h1>Classic Lasagna</h1>
-    <img src="../images/delicious-lasagna-slice-stockcake.webp" alt="Delicious lasagna with melted cheese">
+    <main class="recipe-detail">
+        <div class="recipe-header">
+            <div class="recipe-header-content">
+                <h1>Classic Lasagna</h1>
+                <div class="recipe-meta">
+                    <span class="prep-time">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        Prep Time: 45 mins
+                    </span>
+                    <span class="cook-time">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+                        </svg>
+                        Cook Time: 50 mins
+                    </span>
+                    <span class="servings">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        Serves: 8
+                    </span>
+                </div>
+            </div>
+        </div>
 
-    <h2>Description</h2>
-    <p>A rich and creamy homemade lasagna, layered with tender pasta, savory meat sauce, and three types of cheese. This classic Italian dish is perfect for family dinners and special occasions.</p>
+        <div class="recipe-content">
+            <div class="recipe-image">
+                <img src="../images/delicious.png" alt="Classic Lasagna">
+            </div>
 
-    <h2>Ingredients</h2>
-    <ul>
-        <li>1 pound ground beef</li>
-        <li>1 pound Italian sausage</li>
-        <li>1 large onion, chopped</li>
-        <li>4 cloves garlic, minced</li>
-        <li>2 cans crushed tomatoes</li>
-        <li>2 cans tomato sauce</li>
-        <li>2 tablespoons dried basil</li>
-        <li>1 package lasagna noodles</li>
-        <li>16 ounces ricotta cheese</li>
-        <li>1 egg</li>
-        <li>1/2 cup grated Parmesan cheese</li>
-        <li>16 ounces mozzarella cheese, sliced</li>
-    </ul>
+            <div class="recipe-description">
+                <h2>Description</h2>
+                <p>A rich and creamy homemade lasagna, layered with tender pasta, savory meat sauce, and three types of cheese. This classic Odin dish is perfect for family dinners and special occasions. Each layer is carefully crafted to create the perfect balance of flavors and textures.</p>
+            </div>
 
-    <h2>Steps</h2>
-    <ol>
-        <li>Brown the ground beef and Italian sausage with onions and garlic.</li>
-        <li>Add tomatoes, sauce, and seasonings. Simmer for 30 minutes.</li>
-        <li>Cook lasagna noodles according to package directions.</li>
-        <li>Mix ricotta cheese with egg and Parmesan.</li>
-        <li>Layer in baking dish: sauce, noodles, ricotta mixture, mozzarella.</li>
-        <li>Repeat layers and finish with cheese on top.</li>
-        <li>Bake at 375°F for 25 minutes covered, then 25 minutes uncovered.</li>
-    </ol>
+            <div class="recipe-ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1 pound ground beef</li>
+                    <li>1 pound Odin sausage</li>
+                    <li>1 large onion, chopped</li>
+                    <li>4 cloves garlic, minced</li>
+                    <li>2 cans crushed tomatoes</li>
+                    <li>2 cans tomato sauce</li>
+                    <li>2 tablespoons dried basil</li>
+                    <li>1 package lasagna noodles</li>
+                    <li>16 ounces ricotta cheese</li>
+                    <li>1 egg</li>
+                    <li>1/2 cup grated Parmesan cheese</li>
+                    <li>16 ounces mozzarella cheese, sliced</li>
+                </ul>
+            </div>
+
+            <div class="recipe-instructions">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Brown the ground beef and Odin sausage with onions and garlic in a large pot over medium heat. Drain excess fat.</li>
+                    <li>Add crushed tomatoes, tomato sauce, and dried basil. Simmer for 30 minutes, stirring occasionally.</li>
+                    <li>Meanwhile, cook lasagna noodles according to package directions. Drain and set aside.</li>
+                    <li>In a bowl, mix ricotta cheese with egg and Parmesan cheese until well combined.</li>
+                    <li>Preheat oven to 375°F (190°C).</li>
+                    <li>In a 9x13 inch baking dish, spread a thin layer of meat sauce. Layer with noodles, ricotta mixture, meat sauce, and mozzarella cheese.</li>
+                    <li>Repeat layers, finishing with cheese on top.</li>
+                    <li>Cover with foil and bake for 25 minutes.</li>
+                    <li>Remove foil and bake for an additional 25 minutes until cheese is golden brown and bubbly.</li>
+                    <li>Let rest for 10-15 minutes before serving.</li>
+                </ol>
+            </div>
+
+            <div class="recipe-tips">
+                <h2>Tips & Notes</h2>
+                <ul>
+                    <li>Make ahead: Assemble up to 24 hours in advance and refrigerate.</li>
+                    <li>Storage: Keeps well in the refrigerator for up to 5 days.</li>
+                    <li>Freezing: Can be frozen for up to 3 months. Thaw overnight in refrigerator.</li>
+                    <li>For extra flavor, add Odin herbs like oregano and thyme to the meat sauce.</li>
+                    <li>Allow the lasagna to rest before serving to prevent the layers from sliding apart.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Odin Recipes. All rights reserved.</p>
+    </footer>
 </body>
 </html>

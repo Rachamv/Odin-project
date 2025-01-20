@@ -3,38 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spaghetti Carbonara Recipe</title>
+    <title>Spaghetti Carbonara - Odin Recipes</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../recipe-detail.css">
 </head>
 <body>
-    <a href="../index.html">Home</a>
+    <header>
+        <div class="logo">Odin Recipes</div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
 
-    <h1>Spaghetti Carbonara</h1>
-    <img src="../images/Spaghetti-carbonara.jpg" alt="Creamy spaghetti carbonara">
+    <main class="recipe-detail">
+        <div class="recipe-header">
+            <div class="recipe-header-content">
+                <h1>Spaghetti Carbonara</h1>
+                <div class="recipe-meta">
+                    <span class="prep-time">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        Prep Time: 15 mins
+                    </span>
+                    <span class="cook-time">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+                        </svg>
+                        Cook Time: 20 mins
+                    </span>
+                    <span class="servings">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        Serves: 4
+                    </span>
+                </div>
+            </div>
+        </div>
 
-    <h2>Description</h2>
-    <p>A classic Roman pasta dish made with eggs, cheese, pancetta, and black pepper. This simple yet elegant dish comes together quickly and always impresses with its rich, creamy sauce.</p>
+        <div class="recipe-content">
+            <div class="recipe-image">
+                <img src="../images/spaghetti-carbonara.jpg" alt="Spaghetti Carbonara">
+            </div>
 
-    <h2>Ingredients</h2>
-    <ul>
-        <li>1 pound spaghetti</li>
-        <li>6 ounces pancetta or guanciale, diced</li>
-        <li>4 large eggs</li>
-        <li>1 cup freshly grated Pecorino Romano</li>
-        <li>1 cup freshly grated Parmigiano-Reggiano</li>
-        <li>2 cloves garlic, minced</li>
-        <li>Fresh ground black pepper</li>
-        <li>Salt to taste</li>
-    </ul>
+            <div class="recipe-description">
+                <h2>Description</h2>
+                <p>A classic Roman pasta dish made with eggs, cheese, pancetta, and black pepper. This simple yet elegant dish comes together quickly and always impresses with its rich, creamy sauce created without using any cream. The secret lies in the perfect combination of egg yolks and cheese, creating a silky smooth coating for the pasta.</p>
+            </div>
 
-    <h2>Steps</h2>
-    <ol>
-        <li>Bring a large pot of salted water to boil for the pasta.</li>
-        <li>In a bowl, whisk together eggs, grated cheese, and plenty of black pepper.</li>
-        <li>Cook pancetta in a large pan until crispy. Remove from heat.</li>
-        <li>Cook spaghetti until al dente. Reserve 1 cup pasta water.</li>
-        <li>Working quickly, toss hot pasta with pancetta, then add egg mixture.</li>
-        <li>Add pasta water as needed to create a creamy sauce.</li>
-        <li>Serve immediately with extra cheese and black pepper.</li>
-    </ol>
+            <div class="recipe-ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1 pound spaghetti</li>
+                    <li>6 ounces pancetta or guanciale, diced</li>
+                    <li>4 large eggs</li>
+                    <li>1 cup freshly grated Pecorino Romano</li>
+                    <li>1 cup freshly grated Parmigiano-Reggiano</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>Fresh ground black pepper</li>
+                    <li>Salt to taste</li>
+                </ul>
+            </div>
+
+            <div class="recipe-instructions">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Bring a large pot of salted water to boil for the pasta.</li>
+                    <li>While water is heating, mix eggs, both grated cheeses, and plenty of black pepper in a bowl until well combined.</li>
+                    <li>In a large pan, cook pancetta over medium heat until crispy and the fat has rendered, about 5-7 minutes. Remove from heat but keep the pancetta in the pan.</li>
+                    <li>Cook spaghetti in the boiling water until al dente according to package instructions.</li>
+                    <li>Just before pasta is done, reserve 1 cup of pasta cooking water.</li>
+                    <li>Working quickly, drain pasta and add to the pan with pancetta.</li>
+                    <li>With the pan off heat, add the egg and cheese mixture, tossing quickly to coat the pasta and prevent the eggs from scrambling.</li>
+                    <li>Add pasta water as needed to create a creamy sauce that coats the pasta.</li>
+                    <li>Serve immediately with extra grated cheese and black pepper.</li>
+                </ol>
+            </div>
+
+            <div class="recipe-tips">
+                <h2>Tips & Notes</h2>
+                <ul>
+                    <li>Temperature control is key - remove pan from heat before adding eggs to prevent scrambling</li>
+                    <li>Use room temperature eggs for the smoothest sauce</li>
+                    <li>Traditional carbonara never contains cream - the creaminess comes from the eggs and cheese</li>
+                    <li>Reserve more pasta water than you think you'll need - it's essential for achieving the right consistency</li>
+                    <li>Serve immediately as the sauce will continue to thicken as it cools</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Odin Recipes. All rights reserved.</p>
+    </footer>
 </body>
 </html>

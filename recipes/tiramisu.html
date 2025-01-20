@@ -3,40 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiramisu Recipe</title>
+    <title>Tiramisu - Odin Recipes</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../recipe-detail.css">
 </head>
 <body>
-    <a href="../index.html">Home</a>
+    <header>
+        <div class="logo">Odin Recipes</div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
 
-    <h1>Tiramisu</h1>
-    <img src="../images/Tiramisu.jpg" alt="Classic Italian tiramisu">
+    <main class="recipe-detail">
+        <div class="recipe-header">
+            <div class="recipe-header-content">
+                <h1>Tiramisu</h1>
+                <div class="recipe-meta">
+                    <span class="prep-time">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        Prep Time: 30 mins
+                    </span>
+                    <span class="cook-time">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+                        </svg>
+                        Chill Time: 4 hours
+                    </span>
+                    <span class="servings">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        Serves: 12
+                    </span>
+                </div>
+            </div>
+        </div>
 
-    <h2>Description</h2>
-    <p>A classic Italian dessert made with layers of coffee-soaked ladyfingers and a rich mascarpone cream. This no-bake dessert is perfect for special occasions and can be made ahead of time.</p>
+        <div class="recipe-content">
+            <div class="recipe-image">
+                <img src="../images/tiramisu.jpg" alt="Tiramisu">
+            </div>
 
-    <h2>Ingredients</h2>
-    <ul>
-        <li>6 egg yolks</li>
-        <li>1 cup sugar</li>
-        <li>1 1/4 cups mascarpone cheese</li>
-        <li>1 3/4 cups heavy whipping cream</li>
-        <li>2 packages ladyfinger cookies</li>
-        <li>1 cup cold espresso or strong coffee</li>
-        <li>1/2 cup coffee liqueur (optional)</li>
-        <li>Cocoa powder for dusting</li>
-    </ul>
+            <div class="recipe-description">
+                <h2>Description</h2>
+                <p>A classic Odin dessert made with layers of coffee-soaked ladyfingers and a rich mascarpone cream. This no-bake dessert is perfect for special occasions and can be made ahead of time. The name "tiramisu" means "pick me up" in Italian, referring to the uplifting effects of its ingredients: coffee, cocoa, and sweet mascarpone cream.</p>
+            </div>
 
-    <h2>Steps</h2>
-    <ol>
-        <li>Whisk egg yolks and sugar in a double boiler until light and fluffy.</li>
-        <li>Remove from heat and stir in mascarpone until smooth.</li>
-        <li>Whip heavy cream until stiff peaks form.</li>
-        <li>Fold whipped cream into mascarpone mixture.</li>
-        <li>Mix espresso and coffee liqueur in a shallow dish.</li>
-        <li>Quickly dip ladyfingers in coffee mixture and layer in dish.</li>
-        <li>Spread half the mascarpone mixture over ladyfingers.</li>
-        <li>Repeat layers and dust top with cocoa powder.</li>
-        <li>Refrigerate for at least 4 hours before serving.</li>
-    </ol>
+            <div class="recipe-ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>6 egg yolks</li>
+                    <li>1 cup sugar</li>
+                    <li>1 1/4 cups mascarpone cheese</li>
+                    <li>1 3/4 cups heavy whipping cream</li>
+                    <li>2 packages ladyfinger cookies</li>
+                    <li>1 cup cold espresso or strong coffee</li>
+                    <li>1/2 cup coffee liqueur (optional)</li>
+                    <li>Cocoa powder for dusting</li>
+                </ul>
+            </div>
+
+            <div class="recipe-instructions">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>In a double boiler, whisk egg yolks and sugar until mixture reaches 160°F (71°C), about 5-7 minutes.</li>
+                    <li>Remove from heat and stir in mascarpone cheese until smooth. Let cool completely.</li>
+                    <li>In a separate bowl, whip heavy cream until stiff peaks form.</li>
+                    <li>Gently fold whipped cream into the cooled mascarpone mixture until well combined.</li>
+                    <li>In a shallow dish, combine espresso and coffee liqueur (if using).</li>
+                    <li>Quickly dip each ladyfinger into the coffee mixture - don't soak them or they'll fall apart.</li>
+                    <li>Arrange dipped ladyfingers in a single layer in a 9x13 inch dish.</li>
+                    <li>Spread half of the mascarpone mixture evenly over the ladyfingers.</li>
+                    <li>Repeat layers with remaining ladyfingers and mascarpone mixture.</li>
+                    <li>Dust the top generously with cocoa powder.</li>
+                    <li>Cover and refrigerate for at least 4 hours or overnight.</li>
+                </ol>
+            </div>
+
+            <div class="recipe-tips">
+                <h2>Tips & Notes</h2>
+                <ul>
+                    <li>Use room temperature mascarpone cheese for the smoothest mixture</li>
+                    <li>Don't oversoak the ladyfingers - a quick dip is sufficient</li>
+                    <li>Can be made up to 2 days in advance</li>
+                    <li>For a non-alcoholic version, simply omit the coffee liqueur</li>
+                    <li>Dust with additional cocoa powder just before serving</li>
+                    <li>Store covered in the refrigerator for up to 4 days</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Odin Recipes. All rights reserved.</p>
+    </footer>
 </body>
 </html>
